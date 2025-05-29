@@ -10,10 +10,7 @@
         width: 548px;
         height: auto;
 
-        @media (max-width: 768px) {
-            display: flex;
-            flex-direction: column;
-        }
+        
 
         .hero-left-bottom {
             width: 100%;
