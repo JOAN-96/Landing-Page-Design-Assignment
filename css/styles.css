@@ -1,0 +1,69 @@
+@import url(./boilerplates.css);
+@import url(./fonts.css);
+
+
+@layer hero {
+    .hero {
+        padding-top: 48px;
+        padding-bottom: 96px;
+        .hero-left {
+        width: 548px;
+        height: auto;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero-left-bottom {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 12px;
+
+            .hero-left-bottom-img {
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: -64px;
+
+                    .img-1 {
+                        width: 32px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .img-2 {
+                        width: 32px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .img-3 {
+                        width: 32px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .img-4 {
+                        width: 32px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-right {
+        width: 400px;
+    }
+}
